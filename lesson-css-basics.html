@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4. CSSの基本</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="editor.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>4. CSSの基本（色・余白・文字）</h1>
+      <p><a href="index.html">← カリキュラム一覧へ</a></p>
+
+      <section class="card">
+        <h2>基本の書き方</h2>
+        <pre><code>selector {
+  property: value;
+}</code></pre>
+        <p>例: <code>h1 { color: #2563eb; }</code></p>
+      </section>
+
+      <section class="card">
+        <h2>練習問題</h2>
+        <ol>
+          <li>見出しの色を変更</li>
+          <li>段落に <code>line-height</code> を設定</li>
+          <li>カードに <code>padding</code> を設定</li>
+        </ol>
+      </section>
+
+      <section class="card playground" data-html="<h1>CSS練習</h1><p>この文字の見た目を変更してみよう。</p>" data-css="h1 { color: #2563eb; } p { font-size: 18px; line-height: 1.8; }">
+        <h2>簡易エディター</h2>
+      </section>
+
+      <p><a href="lesson-css-linking.html">次へ: 5. CSSの読み込み →</a></p>
+    </main>
+  </body>
+</html>

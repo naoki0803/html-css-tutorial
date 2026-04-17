@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6. レイアウト基礎（Flexbox）</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="editor.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>6. レイアウト基礎（Flexbox）</h1>
+      <p><a href="index.html">← カリキュラム一覧へ</a></p>
+
+      <section class="card">
+        <h2>Flexboxの基本</h2>
+        <pre><code>.cards {
+  display: flex;
+  gap: 16px;
+}
+.card {
+  flex: 1;
+}</code></pre>
+      </section>
+
+      <section class="card">
+        <h2>練習問題</h2>
+        <ol>
+          <li>2カラムの特徴紹介ブロックを作る</li>
+          <li>スマホ幅では1カラムにする（<code>@media</code> を使う）</li>
+        </ol>
+      </section>
+
+      <section class="card playground" data-html="<div class='feature-list'><div class='feature'>速い</div><div class='feature'>簡単</div><div class='feature'>無料</div></div>" data-css=".feature-list { display: flex; gap: 12px; } .feature { background: #e2e8f0; padding: 12px; border-radius: 8px; flex: 1; text-align: center; } @media (max-width: 600px) { .feature-list { flex-direction: column; } }">
+        <h2>簡易エディター</h2>
+      </section>
+
+      <p><a href="final-project.html">次へ: 7. 最終課題 →</a></p>
+    </main>
+  </body>
+</html>
