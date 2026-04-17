@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5. CSSの読み込みと適用ルール</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="editor.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>5. CSSの読み込みと適用ルール</h1>
+      <p><a href="index.html">← カリキュラム一覧へ</a></p>
+
+      <section class="card">
+        <h2>CSSが反映されるまで</h2>
+        <ol>
+          <li>HTMLの <code>&lt;head&gt;</code> 内でCSSファイルを読み込む</li>
+          <li>セレクタが要素に一致する</li>
+          <li>文法ミスがない</li>
+          <li>ブラウザを更新して確認</li>
+        </ol>
+        <pre><code>&lt;link rel="stylesheet" href="styles.css" /&gt;</code></pre>
+      </section>
+
+      <section class="card">
+        <h2>反映されない時のチェック</h2>
+        <ul>
+          <li>ファイル名のスペル（<code>style.css</code> と <code>styles.css</code>）</li>
+          <li>保存忘れ</li>
+          <li>セレクタのタイプミス（例: <code>.title</code> と <code>class="tilte"</code>）</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>練習問題</h2>
+        <ol>
+          <li><code>class="title"</code> を付けて、CSSで色と余白を変える</li>
+          <li>あえてスペルミスを作り、直して反映されることを確認する</li>
+        </ol>
+      </section>
+
+      <section class="card playground" data-html="<h1 class='title'>CSS反映チェック</h1><p>class名を変えると適用が外れることを確認できます。</p>" data-css=".title { color: #dc2626; margin-bottom: 8px; } p { color: #334155; }">
+        <h2>簡易エディター</h2>
+      </section>
+
+      <p><a href="lesson-layout.html">次へ: 6. レイアウト基礎 →</a></p>
+    </main>
+  </body>
+</html>
