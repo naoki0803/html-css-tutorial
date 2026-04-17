@@ -13,7 +13,7 @@ Mac + VSCode環境で、HTML/CSSを0から学ぶ初心者向け教材です。
 1. GitHubの対象リポジトリを開く
 2. **Settings → Pages** を開く
 3. **Source** を `Deploy from a branch` に設定
-4. Branchを `copilot/create-html-css-tutorial`（またはマージ後の`main`）/`root` に設定して保存
+4. Branchを `main`（またはデフォルトブランチ）/`root` に設定して保存
 5. 表示されたURLにアクセスして公開ページを確認
 
 公開後は `index.html` がトップページとして表示されます。

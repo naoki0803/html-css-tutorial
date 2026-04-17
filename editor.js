@@ -18,7 +18,7 @@ function createPlayground(section) {
           <button class="playground-button secondary" data-action="reset">初期コードに戻す</button>
         </div>
       </div>
-      <iframe class="playground-preview" title="コードプレビュー"></iframe>
+      <iframe class="playground-preview" title="コードプレビュー" sandbox></iframe>
     </div>
   `
   );

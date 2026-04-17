@@ -96,6 +96,14 @@ pre {
   cursor: pointer;
 }
 
+.playground-button:hover {
+  background: #1d4ed8;
+}
+
 .playground-button.secondary {
   background: #475569;
+}
+
+.playground-button.secondary:hover {
+  background: #334155;
 }
